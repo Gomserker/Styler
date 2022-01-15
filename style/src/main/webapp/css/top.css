@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 이미지 체크박스 */
+.menu input[type=checkbox]{
+    display: none;
+}
+.menu input[type=checkbox]+label{
+    padding-left: 25px;
+    background-image: url('https://blog.kakaocdn.net/dn/bGZo5q/btqFJqxzuQY/8ZD1uIF1KXnODBKu0P7750/img.webp');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.menu input[type=checkbox]+label>span{
+    font-weight: bold;
+}
+.menu input[type=checkbox]:checked+label{
+    background-image: url('https://e7.pngegg.com/pngimages/820/564/png-clipart-radio-button-checkbox-plug-in-jquery-button-logo-plugin.png');
+	background-size: 20px;
+}
+
+.menu input[type=checkbox]:checked~.menuitems{
+    display: block;
+}
+
+.menu .menuitems{
+    
+    display:none;
+}
+.menu .menuitems{
+    list-style: none;
+}
+.menu .menuitems li{
+    padding: 5px;
+    float: left;
+   
+}
+
+

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 200px;
+}
+
+#slider{
+	text-align: center;
+	margin: 0 auto;
+}

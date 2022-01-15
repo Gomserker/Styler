@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.card{
+	 transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+   box-shadow: 5px 5px 5px 5px gray;
+    margin-top:20px;
+    margin-bottom:40px;
+    display: inline-block;
+   
+  
+}
+
+#g_form{
+	text-align: center;
+}
+
+#g_span{
+	margin-top:20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.card:hover{
+	 transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
